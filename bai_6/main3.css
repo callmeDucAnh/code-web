@@ -1,0 +1,19 @@
+table, tr, td, th{
+    border-color: #e3d2b6;
+    border-collapse: collapse;
+    padding: 30px;
+    text-align: center;
+}
+.cam{
+    background-color: orange;
+}
+.vang{
+    background-color: yellow;
+}
+table{
+    border-width: 10px 20px ;
+    border-style: solid;
+}
+th, td{
+    border-style: inset;
+}

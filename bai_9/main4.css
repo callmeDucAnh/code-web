@@ -1,0 +1,15 @@
+table{
+    background-color: orange;
+    border-collapse: collapse ;
+    border: 2px solid orange;
+}
+thead, th{
+    background-color: aqua;
+    color: rgb(76, 153, 127);
+    border: 2px solid orange;
+}
+tbody, td{
+    background-color: rgb(250, 250, 156);
+    color: rgb(114, 153, 56);
+    border: 2px solid orange;
+}
