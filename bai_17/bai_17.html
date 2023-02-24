@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form action="" method="post" style="background-color: rgb(255,208,120);">
+        <h3 style="text-align: center;">Survey Form</h3>
+        <p>if you are interested in purchasing one or more of products, before ordering please complete some or all of the following survey for our marketing department. Answering any question is optianal, and all information will be kept strictly confidential. Thank you very much for your time!</p>
+        <ol type = "1">
+            <li>
+                <label for="Name">What is your name?</label><br>
+                <input type="text" name="gName" id="Name" size="30">
+            </li>
+            <li>
+                <label  for="gBirth">What is your date birth?</label><br>
+                <p style="margin: 0px; font-size: 14px;">
+                    Month: <select name="month">
+                        <option value="1">January</option>
+                        <option value="2">Febuary</option>
+                    </select>
+                    Date: <select name="day" >
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    year: <input type="text" size="1" placeholder="2022">
+                </p>
+            </li>
+            <li>
+                <label for="mail">What is your mailing address (if you would like to have a hard copy of our catalog sent to you)?</label>
+                <br><textarea name="mail" id="Mmailing" cols=40" rows="4">Number/P.O. Box/Route: 
+Street/Avenue/Road: 
+city:
+State/Zip:</textarea>
+            </li>
+            <li>
+                <label for="Email">What is your email address?</label>
+                <br><input type="email" size="22">
+            </li>
+            <li>
+                <label for="Choice">Have you viewed our online product catalog?</label>
+                <br><input type="radio">Yes
+                <input type="radio">No
+            </li>
+            <li>
+                <label for="Decision">If so, what product(s), besides the one you are ordering, might you be interested in purchasing in the future? (check all that apply.)</label>
+                <br><input type="checkbox">VCR
+                <br><input type="checkbox">Big Screen TV
+                <br><input type="checkbox">Audio Equipment
+                <br><input type="checkbox">Video Equipment
+                <br><input type="checkbox">Camera Equipment
+                <br><input type="checkbox">Other <input type="text" value="please list:">
+            </li>
+            <li>
+                <label for="other">Do you have any question, comments or suggestions before proceeding to the Order Form?</label>
+                <br><textarea name="other" id="Other" cols="38" rows="6">Your Input:</textarea>
+            </li>
+        </ol>
+        <input type="submit" value="Send Form" style="position: relative; left: 250px;">
+        <input type="submit" value="Clear Form" style="position: relative; left: 280px;">
+    </form>
+</body>
+</html>

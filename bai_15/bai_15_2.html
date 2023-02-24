@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend><i>Contact Information</i></legend>
+            <p>
+                <label for="Fname">First name:</label>
+                <input type="text" name="txtName" id="Fname"><br>
+                <label for="Lname">Last name: </label>
+                <input type="text" name="txtName" id="Lname"><br>
+                <label for="Email">Email:</label>
+                <input type="email" name="txtMail" id="Email">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend><i>Competion Question</i></legend>
+            <p>
+                <p>How tall is the Eiffel Tower in Paris, France?<br>
+                <input type="radio" name="rdTall" id="tall" value="584 ft"><label for="tall">584 ft</label><br>
+                <input type="radio" name="rdTall" id="tall" value="784 ft"><label for="tall">784 ft</label><br>
+                <input type="radio" name="rdTall" id="tall" value="984 ft"><label for="tall">984 ft</label><br>
+                <input type="radio" name="rdTall" id="tall" value="1184 ft"><label for="tall">1184 ft</label><br>
+                </p>  
+            </p> 
+            </fieldset>
+            <fieldset>
+                <legend><i>Tiebreaker Question</i></legend>
+                <p>
+                    In 25 words or less, say why would you like to win $10,000:
+                    <textarea name="answer" cols="36" rows="10" maxlength="250"></textarea>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Enter competion</legend>
+                <input type="submit" value="Enter Competion">
+            </fieldset>
+    </form>
+</body>
+</html>

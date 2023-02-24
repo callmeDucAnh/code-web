@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form action="" method="post"></form>
+    <fieldset>
+        <legend>Your message</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="emailTo">To</label></td>
+                <td><input type="text" name="txtTo" id="emailTo" readonly="readonly" size="20px" value="Example Cafe"></td>
+            </tr>
+            <tr>
+                <td><label for="emaiForm">Your email</label></td>
+                <td><input type="text" name="txtEmail" id="emailForm" tabindex="1" maxlength="250"></td>
+            </tr>
+            <tr>
+                <td><label for="emailBody">Message</label></td>
+                <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>How you found us:</legend>
+        <table>
+            <tr>
+                <td><label for="slBox">How did you hear <br> of us</label></td>
+                <td>
+                    <select name = "boxSelection" id="slBox" >
+                    <option value="1">Google</option>
+                    <option value="2">Facebook</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="ckBox">Newslatter</label></td>
+                <td><input type="checkbox" name="ckBox" id="ckBox">Ensure this box is check if you would like to receive email updates</td>
+            </tr>
+        </table>
+    </fieldset>
+    <input type="submit" value="Send message">
+</body>
+</html>
