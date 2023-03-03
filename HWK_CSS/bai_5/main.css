@@ -1,0 +1,7 @@
+body{
+    background-image: url(https://cdn.britannica.com/37/22537-004-8AE58D26/flag-Red-Army-World-War-II-lettering.jpg), url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Red_Army_flag_%28reverse%29.svg/1280px-Red_Army_flag_%28reverse%29.svg.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    height: 1000px;
+    width: 1000px;
+}

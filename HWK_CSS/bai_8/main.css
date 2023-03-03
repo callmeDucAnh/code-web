@@ -1,0 +1,81 @@
+.item1{
+    border: solid 10px;
+    border-color: #85C226 #F7C200 #4493A0 #df127b;
+    height: 100px;
+    
+}
+.item2{
+    border-color: #85C226 #F7C200 #4493A0 #df127b;
+    border-style: solid dotted groove double;
+    border-width: 10px;
+    height: 100px;
+}
+.item3{
+    border-color: #85C226 #F7C200 #4493A0 #df127b;
+    border-style: solid;
+    border-width: 5px 10px 15px 20px;
+    height: 100px;
+}
+.item4{
+    border-color: #85C226 #F7C200 #4493A0 #df127b;
+    border-style: solid;
+    border-width: 13px;
+    height: 100px;
+    border-radius: 0px 30px 70px 20px;
+}
+.item5{
+    border-width: 4px 30px 4px 30px;
+    border-style: groove ridge dashed groove;
+    border-color: #85C226;
+    border-radius: 100px 100px 0px 0px;
+    width: 170px;
+    height: 100px;
+}
+.item6{
+    border-radius: 20px;
+    border-color: #F7C200;
+    border-style: solid;
+    width: 150px;
+    height: 100px;
+    border-width: 5px;
+}
+.item7{
+    border-width: 0px 12px 0px 12px;
+    border-style: double;
+    border-color: violet;
+    border-radius: 40px 40px 60px 60px;
+    height: 90px;
+    width: 190px;
+}
+.item8{
+    border-style: solid;
+    border-radius: 20px 100px 100px 20px;
+    border-color: darkcyan;
+    border-width: 5px;
+    height: 80px;
+    width: 180px;
+}
+.item9{
+    background: orange;
+    border-width: 4px 30px 4px 30px;
+    border-style: solid;
+    border-color: #56c6d9 #56c6d9 #fe2192 #fe2192;
+    border-radius: 0px 120px 0px 120px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+button{
+    width: 200px;
+    padding: 8px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #ffff;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-weight: 900;
+    font-size: 125%;
+}

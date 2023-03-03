@@ -1,0 +1,38 @@
+div{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    height: 100px;
+    width: 150px;
+    transition-property:border-width, height, width, border-style, margin, display, margin-left, margin-right, border-color, border-style;
+}
+.change{
+    border-style: solid;
+    border-color: rgb(159, 44, 44);
+    border-width: 2px;
+    height: 100px;
+    width: 150px;
+    margin: 2px;
+}
+img:hover
+{
+    display: block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(159, 44, 44);
+    height: 93px;
+    width: 143px;
+    margin-left: 1.5px;
+    margin-right: 2px;
+    margin-top: 1.5px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+    color: rgb(159, 44, 44);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
