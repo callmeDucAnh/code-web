@@ -1,0 +1,36 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.item{
+    border: 1px solid blue;
+    height: 15em;
+    width: auto;
+    transition-property: height;
+    transition-delay: 0.15s;
+    transition-duration: 0.5s;
+}
+img{
+    display: block;
+    height: 7em;
+    width: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    transition-property: height, width, border;
+    transition-duration: 0.5s;
+}
+p{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+img:hover{
+    height: 10em;
+    width: 10em;
+    border: 2px solid blue;
+}
+.item:hover{
+    height: 17em;
+}
