@@ -1,0 +1,22 @@
+.rib{
+    position: relative;
+    transform: rotate(-45deg);
+    right: 100px;
+    height: 60px;
+    width: 500px;
+    box-shadow: 0 0 10px #8888;
+    background-color: rgb(150, 35, 35);
+}
+.rib>p{
+ position: relative;
+ padding: 12px 0;
+ color: white;
+ font-size: 27px;
+ font-family: Arial, Helvetica, sans-serif;
+ border: dotted orange;
+}
+h1{
+    margin-top: 0px;
+    font-size: 100px;
+    text-shadow: 0 0 3px #000000,    3px 0 3px #000000, 0 3px 3px #000000,  -3px 0 3px #000000,  0 -3px 3px #000000;
+}
