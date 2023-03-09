@@ -7,6 +7,7 @@
     padding-top: 16px;
     vertical-align: middle;
     margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 .left-menu{
     display: flex;
@@ -37,6 +38,7 @@ input[type = text]{
     position: relative;
     left: 110px;
     margin-bottom: 28px;
+    font-family: 'Roboto', sans-serif;
 }
 #link-item-container>img{
     height: 20px;
@@ -114,6 +116,7 @@ input[type = text]{
     margin-top: 0px;
     color: rgba(115, 115, 115, 0.525);
     font-size: 25px;
+    margin-top: -15px;
 }
 .detail{
     font-family: 'Inter', sans-serif;
@@ -137,6 +140,7 @@ input[type = text]{
 }
 .sub-item-product4>div>img{
     margin-right: 7px;
+    margin-top: 15px;
 }
 .sub-item-product5{
     display: flex;
@@ -180,4 +184,317 @@ input[type = text]{
     border-radius: 5px;
     font-size: 17px;
     color: white;
+}
+#Related-contaiter{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 110px;
+    font-family: 'Roboto', sans-serif;
+}
+.producted-tilte{
+    margin-top: 126px; position: relative; left: 110px; font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.sub-related{
+    display: flex;
+    position: relative;
+    margin-right: 40px;
+}
+.sub-related span{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    height: 20px;
+    width: 76px;
+    background-color: #ffc970;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 14px;
+    padding-top: 5px;
+    color: #9d722d;
+    font-family: 'Roboto', sans-serif;
+}
+.related-price{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+.related-price h2{
+
+    margin-right: 10px;
+    font-size: 25px;
+}
+.related-price h3{
+    margin-right: 150px;
+    color: rgba(115, 115, 115, 0.525);
+    font-size: 20px;
+    margin-top: 15px;
+}
+.related-item p{
+    margin-top: 5px;
+    font-size: 14px;
+}
+#middle-menu{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 140px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    position: relative;
+    left: 188px;
+}
+.middle-item1, .middle-item2, .middle-item3, .middle-item4, .middle-item5{
+    width: 200px;
+    height: 52px;
+    text-align: center;
+    color: #459d7a;
+}
+.sub-sep{
+    color: #459d7a;
+    font-size: 20px;
+    
+}
+.middle-item1{
+    background-color: #459d7a34;
+}
+#discription{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+}
+#discription div{
+    margin-top: 140px;
+    margin-right: 100px;
+}
+#discription img{
+    margin-top: 45px;
+}
+.dis-explain div{
+    margin-bottom: 0px;
+}
+.dis-explain h2{
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.dis-explain p{
+    margin-top: 2px;
+    color: rgb(115, 115, 115);
+    font-size: 18px;
+}
+.Ingredients{
+    font-size: 40px;
+    position: relative;
+    left: 95px;
+}
+#Ingredients-container{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+}
+.sub-ingredients img{
+    border-radius: 10px 10px 0 0;
+}
+
+.sub-ingredients p{
+    margin-top: 5px;
+    color: rgb(115, 115, 115);
+}
+.cen-button{
+    width: 210px;
+    height: 37px;
+    border: 2px solid transparent;
+    background-color: white;
+    border-color: #459d7a;
+    border-radius: 5px;
+    color: #459d7ad5;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.how-to-use{
+    font-size: 40px;
+    position: relative;
+    left: 95px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 120px;
+}
+.video{
+    position: relative;
+    left: 95px;
+}
+.video img{
+    width: 1275px;
+}
+.video span{
+    position: absolute;
+    top: 360px;
+    left: 540px;
+    background-color: black;
+    width: 177px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 5px 0 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#reviews{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-around;
+}
+.rate{
+    display: flex;
+    flex-direction: column;
+
+}
+.sub-rate{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+.sub-rate p, img, h3{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.sub-rate p, h3{
+    margin-top: 1px;
+}
+.reviewer{
+    margin-top: 40px;
+}
+.reviewer img{
+    margin-top: 30px;
+    width: 765px;
+}
+.reviewer button{
+    position: relative;
+    left: 625px;
+    width: 140px;
+    height: 34px;
+    border: 2px solid transparent;
+    border-color: #32b581fd;
+    background-color: white;
+    color: #32b581fd;
+    border-radius: 5px;
+}
+.reviewe-background{
+    background-color: rgba(128, 128, 128, 0.053);
+    margin-top: 100px;
+}
+.menu-review{
+    position: relative;
+    left: 650px;
+    width: 320px;
+}
+.FAQS-tilte{
+    font-size: 40px; 
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 110px;
+}
+#FAQs-container{
+    display: flex;
+    position: relative;
+    left: -90px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-evenly;
+}
+.FAQs-item{
+    display: flex;
+    flex-direction: column;
+}
+.sub-FAQs1{
+    display: flex;
+    border: 2px solid;
+    border-color: #459d7a;
+    border-radius: 5px;
+    align-items: center;
+    width: 600px;
+}
+.sub-FAQs1 img{
+    position: relative;
+    top: -25px;
+    left: 50px;
+}
+.sub-FAQs1 p{
+    padding-left: 10px;
+}
+.sub-FAQs2, .sub-FAQs3{
+    display: flex;
+    border: 1px solid;
+    border-color: rgba(128, 128, 128, 0.533);
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 15px;
+    width: 590px;
+    height: 77px;
+    justify-content: flex-start;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.sub-FAQs2 img{
+    position: relative;
+    left: 120px;
+}
+.sub-FAQs3 img{
+    position: relative;
+    left: 75px;
+}
+.sub-FAQs4, .sub-FAQs5, .sub-FAQs6, .sub-FAQs7{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.sub-FAQs4{
+    border: 1px solid;
+    border-color: rgba(128, 128, 128, 0.533);
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 600px;
+    font-size: 20px;
+}
+.sub-FAQs4 img{
+    position: relative;
+    left: 240px;
+}
+.sub-FAQs5{
+    border: 1px solid;
+    border-color: rgba(128, 128, 128, 0.533);
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 600px;
+    font-size: 20px;
+}
+.sub-FAQs5 img{
+    position: relative;
+    left: 88px;
+}
+.sub-FAQs6{
+    border: 1px solid;
+    border-color: rgba(128, 128, 128, 0.533);
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 600px;
+    font-size: 20px;
+}
+.sub-FAQs6 img{
+    position: relative;
+    left: 111px;
+}
+.sub-FAQs7{
+    border: 1px solid;
+    border-color: rgba(128, 128, 128, 0.533);
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 600px;
+    font-size: 20px;
+}
+.sub-FAQs7 img{
+    position: relative;
+    left: 104px;
 }
