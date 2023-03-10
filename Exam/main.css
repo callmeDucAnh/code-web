@@ -400,7 +400,7 @@ input[type = text]{
 #FAQs-container{
     display: flex;
     position: relative;
-    left: -90px;
+    left: 30px;
     font-family: 'Roboto', sans-serif;
     justify-content: space-evenly;
 }
@@ -497,4 +497,86 @@ input[type = text]{
 .sub-FAQs7 img{
     position: relative;
     left: 104px;
+}
+.footer-background{
+ background-color: rgba(11, 7, 21, 0.945);
+ margin-top: 30px;
+ height: 440px;
+}
+#footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+.sub-footer th{
+    text-align: left;
+    position: relative;
+    width: 180px;
+    font-size: 25px;
+}
+
+.sub-footer td{
+    padding-top: 20px;
+    width: 180px;
+    text-align: left;
+}
+.footer-item1{
+    position: relative;
+    left: -36px;
+}
+.footer-item2{
+    position: relative;
+    top: 18px;
+    right: 80px;
+    align-items: center;
+}
+.footer-item2 input[type = email]{
+    height: 40px;
+    outline: 0.5px solid gray   ;
+    border-radius: 6px 0 0 6px;
+    width: 303px;
+    margin-right: 0px;
+    background-color: rgba(11, 7, 21, 0.945);
+    color: white;
+    border: 1px solid grey;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-item2 input::placeholder{
+    color: white;
+}
+.sub-footer2{
+    display: flex;
+    align-items: center;
+}
+.footer-item2 button{
+    margin-left: 0px;
+    height: 45px;
+    border: 2px solid transparent;
+    border-color: #32b581fd;
+    background-color: #32b581fd;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;    
+    width: 100px;
+    padding-right: 100px;
+    border-radius: 0 6px 6px 0;
+}
+.footer-item2 img{
+    margin-right: 5px;
+}
+.footer-background select{
+    position: relative;
+    left: 165px;
+    border-color: white;
+    background-color: rgba(11, 7, 21, 0.945);
+    color: white;
+    width: 120px;
+    height: 30px;
+    padding-left: 5px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
 }
