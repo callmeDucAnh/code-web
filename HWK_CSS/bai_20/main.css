@@ -1,0 +1,33 @@
+nav ul{
+    list-style: none;
+}
+.Products{
+ position: relative;
+}
+.Products ul{
+    position: absolute;
+    left: 70px;
+    top: 1px;
+}
+nav ul li{
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #0d90df;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 2px dashed white;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #0d90df, 2px 1px 6px 4px rgb(10, 10, 0, 0.5);
+    text-shadow: -1px -1px #aa3030;
+    font-weight: normal;
+    text-align: center;
+}
+.Products ul{
+    display: none;
+}
+.Products:hover ul{
+    display: block;
+}
